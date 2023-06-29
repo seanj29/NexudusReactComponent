@@ -40,9 +40,9 @@ export const HomeBanner = withCustomComponent('HomeBanner')(
                 <p>{t(configuration['HomePage.BannerSmallText'])}</p>
 
                 {configuration['Members.CanSignup'] && (
-                  <Link href={routes.signup}>
+                  <Link href={routes.tour}>
                     <a href="#" className="btn btn-lg">
-                      {t('Become a member')}
+                      {t('Tour the space')}
                     </a>
                   </Link>
                 )}
