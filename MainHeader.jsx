@@ -7,7 +7,6 @@ import LocationsMenu from 'ui/components/LocationsMenu/LocationsMenu';
 import { withTranslation } from 'react-i18next';
 import { routes } from 'env/routes';
 import { withRouter } from 'next/router';
-import { withRouter } from 'next/router';
 import withCustomComponent from 'ui/components/withCustomComponent';
 import { ReferralNotice } from 'ui/_pages/home/ReferralModal/ReferralNotice';
 import { CustomerInactiveNotice } from 'ui/components/Header/CustomerInactiveNotice';
