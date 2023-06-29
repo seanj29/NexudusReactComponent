@@ -576,15 +576,15 @@ class MainHeader extends Component {
                         </Link>
                       </li>
 
-                      {config['Members.CanSignup'] && (
+                      {config['PublicWebSite.Tour'] && (
                         <li className="nav-item mx-4">
-                          <Link href={routes.signup}>
+                          <Link href={routes.tour}>
                             <a className="btn" id={`nav-sign-up-menu`}>
                               <span className="d-none d-xl-inline">
-                                {t('Become a member')}
+                                {t('Tour the space')}
                               </span>
                               <span className="d-inline d-xl-none">
-                                {t('Sign up')}
+                                {t('Tour the space')}
                               </span>
                             </a>
                           </Link>
