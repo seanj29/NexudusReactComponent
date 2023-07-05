@@ -126,7 +126,7 @@ class CardProduct extends Component {
                       value={product.Quantity}
                       className="form-control w-30"
                     >
-                      {[...Array(11).keys()].map((i) => (
+                      {[...Array(51).keys()].map((i) => (
                         <option key={i} value={i}>
                           {i}
                         </option>
