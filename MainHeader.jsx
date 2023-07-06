@@ -488,14 +488,7 @@ class MainHeader extends Component {
                         </li>
                       )}
 
-                      {config['PublicWebSite.Tour'] &&
-                        appStore.coworkingDashboard && (
-                          <li className="nav-item">
-                            <Link href={routes.tour}>
-                              <a className="nav-link">{t('Take a tour')}</a>
-                            </Link>
-                          </li>
-                        )}
+                      
 
                       {resources.length > 0 && (
                         <>
@@ -542,6 +535,14 @@ class MainHeader extends Component {
                               </ul>
                             </li>
                           )}
+                          {config['PublicWebSite.Tour'] &&
+                        appStore.coworkingDashboard && (
+                          <li className="nav-item">
+                            <Link href={routes.tour}>
+                              <a className="nav-link">{t('Take a tour')}</a>
+                            </Link>
+                          </li>
+                        )}
                         </>
                       )}
                     </ul>
